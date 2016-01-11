@@ -111,7 +111,7 @@ top: 100px;]
  }
 
 #ggg {
-    position: static;
+    position: relative;
 }
 #ggg img {
     position: absolute;
@@ -121,15 +121,18 @@ top: 100px;]
 	width: 100px;
  
  
- #parent {
-    width: 900px;
-}
+
  
- .header {
-	 float: left;
-	 width: 300px;
-	 
- }
+ 
+ 
+ .header{
+    display:inline-block;
+    width: 64px; 
+    height: 64px; 
+   }
+
+ a.icons:hover {
+     background: #C93;
  
  
  
