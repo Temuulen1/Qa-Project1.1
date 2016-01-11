@@ -107,9 +107,22 @@ width: 1300px;
 height:100px;
 margin:0px auto;
 z-index: -1px;
-
+top: 100px;]
  }
 
+#ggg {
+    position: static;
+}
+#ggg img {
+    position: absolute;
+    top: -200px;
+    right: 1150px;
+	height: 30px;
+	width: 100px;
+ 
+ 
+ 
+ 
  
 .login {
 	bottom 100px;
